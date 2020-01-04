@@ -311,7 +311,7 @@ without naming where he wants to lie down. The game will first look for an avail
 
 Section: The Posture Visibility Checks option
 
-Before printing an error message for an NPC, such as "Clark is already sitting" when Clark is trying to sit, this extension can first check whether the player can actually see Clark. If he is in another room or in a closed opaque container, no message will be printed. As visibility checks in Inform can sometimes be slow, this feature is off by default, but can be turned on with the line
+Before printing an error message for an NPC, such as "Clark is already sitting" when Clark is trying to sit, this extension can check whether the player can actually see Clark. If he is in another room or in a closed opaque container, no message will be printed. As visibility checks in Inform can be slow, this feature is off by default, but can be turned on with the line
 
 	Use posture visibility checks.
 
